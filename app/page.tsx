@@ -1,8 +1,8 @@
+import BackgroundBoxes from "@/components/BackgroundBoxes";
 import React from "react";
-import BackgroundBeamsComponent from "@/components/BackgroundBeams";
 
 const Home: React.FC = () => {
-  return <BackgroundBeamsComponent />;
+  return <BackgroundBoxes />;
 };
 
 export default Home;
