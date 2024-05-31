@@ -49,7 +49,7 @@ const Tab: React.FC = () => {
       title: "Random",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md">
+        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <p>Random</p>
           <DummyContent />
         </div>
