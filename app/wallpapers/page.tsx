@@ -1,7 +1,8 @@
 import React from "react";
+import { ParallaxScrollDemo } from "@/components/ParallaxScrollDemo";
 
 const WallpapersPage = () => {
-  return <div className="min-h-screen">WallpapersPage</div>;
+  return <ParallaxScrollDemo />;
 };
 
 export default WallpapersPage;
