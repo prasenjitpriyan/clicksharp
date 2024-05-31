@@ -3,9 +3,20 @@
 import React from "react";
 import { Boxes } from "@/components/ui/background-boxes";
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
+import { FlipWords } from "@/components/ui/flip-words";
 import { cn } from "@/utils/cn";
 
 const BackgroundBoxes: React.FC = () => {
+  const words = [
+    "Captivating",
+    "Visually Stunning",
+    "Engaging",
+    "Elegant",
+    "Immersive",
+    "Dynamic",
+    "Memorable",
+  ];
+
   const placeholders = [
     "Xplore breathtaking landscapes captured through my lens.",
     "Discover moments frozen in time, waiting to tell their stories.",
@@ -30,7 +41,9 @@ const BackgroundBoxes: React.FC = () => {
         Click Sharp
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20">
-        A dynamic and memorable photography gallery website.
+        A
+        <FlipWords words={words} />
+        photography gallery website.
       </p>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
