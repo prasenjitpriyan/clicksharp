@@ -9,7 +9,7 @@ import { cn } from "@/utils/cn";
 const BackgroundBoxes: React.FC = () => {
   const words = [
     "Captivating",
-    "Visually Stunning",
+    "Stunning",
     "Engaging",
     "Elegant",
     "Immersive",
@@ -40,11 +40,11 @@ const BackgroundBoxes: React.FC = () => {
       <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
         Click Sharp
       </h1>
-      <p className="text-center mt-2 text-neutral-300 relative z-20">
+      <div className="text-center mt-2 text-neutral-300 relative z-20">
         A
         <FlipWords words={words} />
         photography gallery website.
-      </p>
+      </div>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
         onChange={handleChange}
