@@ -7,7 +7,7 @@ const Tab: React.FC = () => {
       title: "Product",
       value: "product",
       content: (
-        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md">
+        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <p>Product</p>
           <DummyContent />
         </div>
@@ -17,7 +17,7 @@ const Tab: React.FC = () => {
       title: "Services",
       value: "services",
       content: (
-        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md">
+        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <p>Services</p>
           <DummyContent />
         </div>
@@ -27,7 +27,7 @@ const Tab: React.FC = () => {
       title: "Playground",
       value: "playground",
       content: (
-        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md">
+        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <p>Playground</p>
           <DummyContent />
         </div>
@@ -37,7 +37,7 @@ const Tab: React.FC = () => {
       title: "Content",
       value: "content",
       content: (
-        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md">
+        <div className="w-full overflow-hidden relative h-full p-10 text-xl md:text-4xl font-bold text-white bg-[cadetblue] rounded-md dark:bg-grid-white/[0.2] bg-grid-black/[0.2]">
           <p>Content</p>
           <DummyContent />
         </div>
