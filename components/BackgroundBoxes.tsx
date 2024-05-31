@@ -7,11 +7,11 @@ import { cn } from "@/utils/cn";
 
 const BackgroundBoxes: React.FC = () => {
   const placeholders = [
-    "What's the first rule of Fight Club?",
-    "Who is Tyler Durden?",
-    "Where is Andrew Laeddis Hiding?",
-    "Write a Javascript method to reverse a string",
-    "How to assemble your own PC?",
+    "Xplore breathtaking landscapes captured through my lens.",
+    "Discover moments frozen in time, waiting to tell their stories.",
+    "A visual journey through light, shadows, and emotions.",
+    "Where pixels dance and memories unfold.",
+    "Frames that whisper secrets of the world.",
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
