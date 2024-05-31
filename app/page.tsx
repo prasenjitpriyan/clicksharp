@@ -1,7 +1,8 @@
 import React from "react";
+import BackgroundBeamsComponent from "@/components/BackgroundBeams";
 
 const Home: React.FC = () => {
-  return <div>Home</div>;
+  return <BackgroundBeamsComponent />;
 };
 
 export default Home;
