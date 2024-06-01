@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "@/assets/styles/globals.css";
 import Navbar from "@/components/Navbar";
-import StoreProvider from "@/providers/Providers";
 import Footer from "@/components/Footer";
 
 const roboto = Roboto({
@@ -26,11 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <StoreProvider>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </StoreProvider>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
